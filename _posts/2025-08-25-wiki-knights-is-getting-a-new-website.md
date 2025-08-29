@@ -5,9 +5,7 @@ thumbnail: 2025-08-25-wiki-knights-is-getting-a-new-website.png
 author: Corban Pendrak
 ---
 
-We are excited to announce that we are in the process of developing a **brand new** website for Wiki Knights! 🚀✨  
-Our current site has served us well, but we believe it's time for a fresh look and improved functionality to  
-better serve our community. 🌟
+We are excited to announce that we are in the process of developing a **brand new** website for Wiki Knights! 🚀✨ Our current site has served us well, but we believe it's time for a fresh look and improved functionality to better serve our community. 🌟
 
 We are first migrating the site from a Wordpress site to a static site generator 🛠️💻, which will allow us to cut down on server costs 💸 and improve site speed ⚡.
 

@@ -1442,6 +1442,27 @@ title: Home
 
 
 						<ul class="wp-block-latest-posts__list has-dates wp-block-latest-posts">
+							{% for post in site.posts %}
+							<li>
+								<div class="wp-block-latest-posts__featured-image aligncenter"><a
+										href="{{ site.url }}/assets/{{ post.thumbnail }}"
+										aria-label="{{ post.title }}"><img
+										width="300" height="169"
+										src="{{ site.url }}/assets/{{ post.thumbnail }}"
+										class="attachment-medium size-medium wp-post-image" alt="" decoding="async"
+										style="width: 300px;"></a>
+								</div>
+								<a class="wp-block-latest-posts__post-title"
+								   href="{{ site.url }}{{ post.url }}">{{ post.title }}</a>
+								<time datetime="{{ post.date }}" class="wp-block-latest-posts__post-date">
+									{{ post.date | date: "%B %-d, %Y"}}"
+								</time>
+								<div class="wp-block-latest-posts__post-excerpt">
+									{{ post.excerpt }}
+								</div>
+							</li>
+							{% endfor %}
+
 							<li>
 								<div class="wp-block-latest-posts__featured-image aligncenter"><a
 										href="https://wikiknights.com/2023/04/13/spring-2023-we-spoke-to-students-about-oer-heres-the-word-on-the-street/"
@@ -1610,14 +1631,6 @@ title: Home
 
 
 						<p><a href="https://wikiknights.com/posts/">View all posts</a></p>
-
-						<ul>
-							{% for post in site.posts %}
-							<li>
-								<a href="{{ site.url }}{{ post.url }}">{{ post.title }}</a>
-							</li>
-							{% endfor %}
-						</ul>
 
 
 						<footer class="wp-block-group alignfull has-text-color has-background has-link-color wp-elements-49a361bed8cd6e09e70f6dd62728d6c6"
