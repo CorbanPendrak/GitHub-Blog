@@ -24,3 +24,7 @@ content:
         label: Authors
         type: string
         list: true
+      - name: content
+        label: Content
+        type: rich-text
+        required: true
