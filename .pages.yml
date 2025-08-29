@@ -1,6 +1,6 @@
 media:
   input: assets
-  output: /Wiki-Knights-Blog/assets
+  output: /assets
 
 content:
   - name: posts
