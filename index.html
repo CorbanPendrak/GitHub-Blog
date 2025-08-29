@@ -1632,6 +1632,14 @@ title: Home
 
 						<p><a href="https://wikiknights.com/posts/">View all posts</a></p>
 
+						<ul>
+							{% for post in site.posts %}
+							<li>
+								<a href="{{ site.url }}{{ post.url }}">{{ post.title }}</a>
+							</li>
+							{% endfor %}
+						</ul>
+
 
 						<footer class="wp-block-group alignfull has-text-color has-background has-link-color wp-elements-49a361bed8cd6e09e70f6dd62728d6c6"
 						        style="color:#ffffff;background-color:#181818;padding-top:40px;padding-right:40px;padding-bottom:40px;padding-left:40px">
