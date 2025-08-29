@@ -1,11 +1,8 @@
-media: 
-  input: assets
-  output: /Wiki-Knights-Blog/assets
+media: assets
 
 content:
   - name: posts
     label: Posts
-    path: _posts
     type: collection
     path: '_posts'
     view:
