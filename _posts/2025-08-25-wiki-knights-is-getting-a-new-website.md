@@ -1,9 +1,6 @@
 ---
-layout: post
 title: "Wiki Knights is getting a new website!"
 ---
-
-# Wiki Knights is getting a new website!
 
 We are excited to announce that we are in the process of developing a **brand new** website for Wiki Knights! 🚀✨  
 Our current site has served us well, but we believe it's time for a fresh look and improved functionality to  
