@@ -1,12 +1,13 @@
-media:
-  input: assets
-  output: /Wiki-Knights-Blog/assets
+media: assets
 
 content:
   - name: posts
     label: Posts
     path: _posts
     type: collection
+    path: '_posts'
+    view:
+      fields: [ title, date, authors ]
     fields:
       - name: layout
         label: Layout
@@ -17,14 +18,37 @@ content:
         label: Title
         type: string
         required: true
-      - name: thumbnail
-        label: Thumbnail
-        type: image
       - name: author
         label: Authors
         type: string
         list: true
+      - name: date
+        label: Date
+        type: date
+        required: true
+      - name: thumbnail
+        label: Thumbnail
+        type: image
       - name: content
         label: Content
         type: rich-text
         required: true
+  - name: config
+    label: Jekyll config
+    path: _config.yml
+    type: file
+    fields:
+      - name: title
+        label: Website title
+        type: string
+      - name: description
+        label: Website description
+        type: string
+      - name: url
+        label: Website URL
+        type: string
+        pattern: ^(https?:\/\/)?(www\.)?[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}(\/[^\s]*)?$
+      - name: cover
+        label: Preview image
+        type: image
+        description: Image used in the social preview on social networks (e.g. Facebook, Twitter...)
