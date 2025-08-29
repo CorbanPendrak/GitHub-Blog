@@ -4,7 +4,7 @@ title: Wiki Knights is getting a new website!
 thumbnail: /assets/2025-08-25-wiki-knights-is-getting-a-new-website.png
 author:
   - Corban Pendrak
-content: >-
+body: >-
   We are excited to announce that we are in the process of developing a **brand
   new** website for _Wiki Knights_! 🚀✨ Our current site has served us well, but
   we believe it’s time for a fresh look and improved functionality to better

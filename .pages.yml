@@ -28,10 +28,14 @@ content:
       - name: thumbnail
         label: Thumbnail
         type: image
-      - name: content
-        label: Content
+      - name: body
+        label: Body
         type: rich-text
         required: true
+      - name: summary
+        label: Summary
+        type: rich-text
+        description: A short summary of the post, used in the post list and in the social preview.
   - name: config
     label: Jekyll config
     path: _config.yml
