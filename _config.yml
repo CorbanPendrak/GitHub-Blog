@@ -1,5 +1,5 @@
 title: Wiki Knights
 description: Wiki Knights is a community of people who believe that information can and should be available, free of charge.
 theme: jekyll-theme-minimal
-url: https://corbanpendrak.github.io
-baseurl: /Wiki-Knights-Blog
+url: "https://corbanpendrak.github.io"
+baseurl: "/Wiki-Knights-Blog"
