@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Wiki Knights is getting a new website!
-thumbnail: 2025-08-25-wiki-knights-is-getting-a-new-website.png
+thumbnail: /assets/2025-08-25-wiki-knights-is-getting-a-new-website.png
 author:
   - Corban Pendrak
 content: >-
