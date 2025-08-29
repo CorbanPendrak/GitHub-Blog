@@ -1,4 +1,5 @@
 ---
+layout: default
 title: "Wiki Knights is getting a new website!"
 ---
 
