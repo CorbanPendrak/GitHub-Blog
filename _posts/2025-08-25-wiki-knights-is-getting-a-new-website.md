@@ -1,6 +1,7 @@
 ---
 layout: default
 title: "Wiki Knights is getting a new website!"
+thumbnail: 2025-08-25-wiki-knights-is-getting-a-new-website.png
 ---
 
 We are excited to announce that we are in the process of developing a **brand new** website for Wiki Knights! 🚀✨  
