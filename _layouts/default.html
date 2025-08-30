@@ -134,24 +134,25 @@
 								</time>
 						</span>
 					</footer><!-- .entry-footer -->
+				</article>
 
-
-				</article><!-- #post-${ID} -->
-
-				<!-- Todo: fix navigation links -->
 				<nav class="navigation post-navigation" aria-label="Posts">
 					<h2 class="screen-reader-text">Post navigation</h2>
 					<div class="nav-links">
+						{% if page.previous.url %}
 						<div class="nav-previous"><a
-								href="https://wikiknights.com/2023/01/12/what-happened-in-fall-2022/" rel="prev"><span
+								href="{{ site.url }}{{ page.previous.url }}" rel="prev"><span
 								class="meta-nav" aria-hidden="true">Previous Post</span> <span
-								class="screen-reader-text">Previous post:</span> <br><span class="post-title">What Happened in Fall&nbsp;2022?</span></a>
+								class="screen-reader-text">Previous post:</span> <br><span class="post-title">{{ page.previous.title }}</span></a>
 						</div>
-						<div class="nav-next"><a
-								href="https://wikiknights.com/2023/04/13/spring-2023-we-spoke-to-students-about-oer-heres-the-word-on-the-street/"
-								rel="next"><span class="meta-nav" aria-hidden="true">Next Post</span> <span
-								class="screen-reader-text">Next post:</span> <br><span class="post-title">Spring 2023: We Spoke to Students About OER. Here’s the Word on the&nbsp;Street:</span></a>
+						{% endif %}
+						{% if page.next.url %}
+						<div class="nav-next">
+							<a href="{{ site.url }}{{ page.next.url }}" rel="next">
+							<span class="meta-nav" aria-hidden="true">Next Post</span> <span class="screen-reader-text">Next post:</span> <br>
+								<span class="post-title">{{ page.next.title }}</span></a>
 						</div>
+						{% endif %}
 					</div>
 				</nav>
 			</main><!-- #main -->
