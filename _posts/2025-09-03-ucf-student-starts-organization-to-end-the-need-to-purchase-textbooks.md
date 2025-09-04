@@ -2,7 +2,7 @@
 layout: default
 title: UCF student starts organization to end the need to purchase textbooks
 date: 2019-11-06
-thumbnail: Wiki-Knights-Blog/assets/5dbfa95a354b8.image_.jpg
+thumbnail: /corbanpendrak.github.io/Wiki-Knights-Blog/assets/5dbfa95a354b8.image_.jpg
 summary: A UCF student is working alongside UCF faculty to jumpstart a new
   student organization called “WikiKnights” with the goal of eliminating the
   need for UCF students to purchase textbooks.
@@ -10,6 +10,8 @@ summary: A UCF student is working alongside UCF faculty to jumpstart a new
 View original article on NSM Today: [http://www.nicholsonstudentmedia.com/life/ucf-student-starts-organization-to-end-the-need-to-purchase/article\_8919e8ec-ff97-11e9-8efe-af8652b3a268.html](http://www.nicholsonstudentmedia.com/life/ucf-student-starts-organization-to-end-the-need-to-purchase/article_8919e8ec-ff97-11e9-8efe-af8652b3a268.html)
 
 ![](Wiki-Knights-Blog/assets/5dbfa95a354b8.image_.jpg)
+
+![](/corbanpendrak.github.io/Wiki-Knights-Blog/assets/5dbfa95a354b8.image_.jpg)
 
 Vice President of student organization WikiKnights, Darby Goodwin (left) and founding member Ian Thomas (right) looking at WikiKnights memes. WikiKnights is a student organization run by junior political science pre-law major, John Martinous, that is working to create open source (free) textbooks for UCF students. Image by Desrae Grant
 
