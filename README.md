@@ -8,13 +8,17 @@ We are excited to have you here and look forward to sharing our journey with you
 - [x] Add with original style
 - [x] Setup CMS
 - [ ] Clean up templates
-  - [ ] Remove unnecessary sections
+  - [x] Remove unnecessary sections
     - [x] default.html
-    - [ ] index.html
+    - [x] index.html
   - [ ] Fix styles
     - [ ] default.html
     - [ ] index.html
 - [ ] Move posts
+- [ ] Add wikiknights.com/library page
+- [ ] Add wikiknights.com/calendar page
+- [ ] Add wikiknights.com/posts page
+  - [ ] Limit posts on main page
 - [ ] SEO
   - [ ] [Sitemap](https://github.com/jekyll/jekyll-sitemap)
   - [ ] [RSS feed](https://github.com/jekyll/jekyll-feed)
