@@ -1,4 +1,4 @@
-media: assets
+media: https://corbanpendrak.github.io/Wiki-Knights-Blog/assets
 
 content:
   - name: posts
@@ -67,3 +67,33 @@ content:
         label: Public URL to Google Calendar
         type: string
         description: The URL to your public Google Calendar. You can get this from the "Integrate calendar" section in your Google Calendar settings.
+  - name: library
+    label: Library
+    type: file
+    path: library.html
+    fields:
+      - name: title
+        label: Page title
+        type: string
+      - name: description
+        label: Page description
+        type: string
+      - name: books
+        label: books
+        type: object
+        list: true
+        fields:
+          - name: title
+            label: Book title
+            type: string
+          - name: cover
+            label: Book cover
+            type: image
+          - name: class
+            label: Class
+            description: The class the book is used for.
+            type: string
+          - name: link
+            label: Link
+            description: Where the book can be found.
+            type: string

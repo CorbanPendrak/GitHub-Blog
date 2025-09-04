@@ -15,7 +15,8 @@ We are excited to have you here and look forward to sharing our journey with you
     - [ ] default.html
     - [ ] index.html
 - [ ] Move posts
-- [ ] Add wikiknights.com/library page
+- [x] Add wikiknights.com/library page
+  - [x] Make library page easily editable
 - [x] Add wikiknights.com/calendar page
   - [x] Make calendar page easily editable
 - [ ] Add wikiknights.com/posts page
@@ -29,4 +30,5 @@ We are excited to have you here and look forward to sharing our journey with you
   - [ ] Image optimization
     - [ ] [Picture Tag](https://github.com/rbuchberger/jekyll_picture_tag)
     - [ ] [Responsive images](https://github.com/wildlyinaccurate/jekyll-responsive-image)
+- [ ] Add other open source resources to library page
 - [ ] Make template repository
