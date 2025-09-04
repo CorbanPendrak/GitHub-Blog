@@ -16,9 +16,11 @@ We are excited to have you here and look forward to sharing our journey with you
     - [ ] index.html
 - [ ] Move posts
 - [ ] Add wikiknights.com/library page
-- [ ] Add wikiknights.com/calendar page
+- [x] Add wikiknights.com/calendar page
+  - [x] Make calendar page easily editable
 - [ ] Add wikiknights.com/posts page
   - [ ] Limit posts on main page
+- [ ] Make index page easily editable
 - [ ] SEO
   - [ ] [Sitemap](https://github.com/jekyll/jekyll-sitemap)
   - [ ] [RSS feed](https://github.com/jekyll/jekyll-feed)

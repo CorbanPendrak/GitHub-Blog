@@ -55,3 +55,15 @@ content:
         label: Preview image
         type: image
         description: Image used in the social preview on social networks (e.g. Facebook, Twitter...)
+  - name: calendar
+    label: Calendar
+    path: calendar.html
+    type: file
+    fields:
+      - name: title
+        label: Page title
+        type: string
+      - name: calendar-url
+        label: Public URL to Google Calendar
+        type: string
+        description: The URL to your public Google Calendar. You can get this from the "Integrate calendar" section in your Google Calendar settings.
