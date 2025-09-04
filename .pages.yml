@@ -1,4 +1,6 @@
-media: https://corbanpendrak.github.io/Wiki-Knights-Blog/assets
+media:
+  input: assets
+  output: /corbanpendrak.github.io/Wiki-Knights-Blog/assets
 
 content:
   - name: posts
