@@ -268,7 +268,7 @@ title: Home
 
 
 						<ul class="wp-block-latest-posts__list has-dates wp-block-latest-posts">
-							{% for post in site.posts %}
+							{% for post in site.posts limit:3 %}
 							<li>
 								<div class="wp-block-latest-posts__featured-image aligncenter"><a
 										href="{{ site.url }}{{ post.thumbnail }}"

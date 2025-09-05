@@ -36,25 +36,6 @@ content:
         label: Summary
         type: rich-text
         description: A short summary of the post, used in the post list and in the social preview.
-  - name: config
-    label: Jekyll config
-    path: _config.yml
-    type: file
-    fields:
-      - name: title
-        label: Website title
-        type: string
-      - name: description
-        label: Website description
-        type: string
-      - name: url
-        label: Website URL
-        type: string
-        pattern: ^(https?:\/\/)?(www\.)?[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}(\/[^\s]*)?$
-      - name: cover
-        label: Preview image
-        type: image
-        description: Image used in the social preview on social networks (e.g. Facebook, Twitter...)
   - name: calendar
     label: Calendar
     path: calendar.html
@@ -97,3 +78,22 @@ content:
             label: Link
             description: Where the book can be found.
             type: string
+  - name: config
+      label: Site Configuration
+      path: _config.yml
+      type: file
+      fields:
+        - name: title
+          label: Website title
+          type: string
+        - name: description
+          label: Website description
+          type: string
+        - name: url
+          label: Website URL
+          type: string
+          pattern: ^(https?:\/\/)?(www\.)?[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}(\/[^\s]*)?$
+        - name: cover
+          label: Preview image
+          type: image
+          description: Image used in the social preview on social networks (e.g. Facebook, Twitter...)
