@@ -39,7 +39,7 @@ title: Home
 	<meta name="twitter:description" content="{{ site.description }}">
 	<!-- End Open Graph Tags -->
 	
-	<link rel="canonical" href="{{ site.url}}">
+	<link rel="canonical" href="{{ site.url}}{{ site.baseurl }}">
 	<meta name="description"
 	      content="{{ site.description }}">
 	<link rel="icon" href="{{ site.url }}{{ site.baseurl }}{{ site.icon }}?w=32"
@@ -271,10 +271,10 @@ title: Home
 							{% for post in site.posts %}
 							<li>
 								<div class="wp-block-latest-posts__featured-image aligncenter"><a
-										href="{{ site.url }}{{ site.baseurl }}{{ post.thumbnail }}"
+										href="{{ site.url }}{{ post.thumbnail }}"
 										aria-label="{{ post.title }}"><img
 										width="300" height="169"
-										src="{{ site.url }}{{ site.baseurl }}{{ post.thumbnail }}"
+										src="{{ site.url }}{{ post.thumbnail }}"
 										class="attachment-medium size-medium wp-post-image" alt="" decoding="async"
 										style="width: 300px;"></a>
 								</div>

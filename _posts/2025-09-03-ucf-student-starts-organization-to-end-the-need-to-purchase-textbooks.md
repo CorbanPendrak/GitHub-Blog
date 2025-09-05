@@ -11,7 +11,7 @@ View original article on NSM Today: [http://www.nicholsonstudentmedia.com/life/u
 
 ![](/Wiki-Knights-Blog/assets/5dbfa95a354b8.image_.jpg)
 
-![](Wiki-Knights-Blog/assets/5dbfa95a354b8.image_.jpg)Vice President of student organization WikiKnights, Darby Goodwin (left) and founding member Ian Thomas (right) looking at WikiKnights memes. WikiKnights is a student organization run by junior political science pre-law major, John Martinous, that is working to create open source (free) textbooks for UCF students. Image by Desrae Grant
+Vice President of student organization WikiKnights, Darby Goodwin (left) and founding member Ian Thomas (right) looking at WikiKnights memes. WikiKnights is a student organization run by junior political science pre-law major, John Martinous, that is working to create open source (free) textbooks for UCF students. Image by Desrae Grant
 
 A UCF student is working alongside UCF faculty to jumpstart a new student organization called “WikiKnights” with the goal of eliminating the need for UCF students to purchase textbooks. 
 
