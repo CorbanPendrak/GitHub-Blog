@@ -3,22 +3,21 @@ title: Wiki Knights Library
 description: The Wiki Knights library is a collection of resources in the public domain created by Wiki Knights.
 books:
     - title: Introduction to C Programming
-      cover: /assets/constiutional-law-cover.webp
+      cover: /Wiki-Knights-Blog/assets/intro-to-c-textbook-cover.webp
       class: COP 3223
       link: https://wikiknights.github.io/cs-materials/intro-to-c
     - title: Political Philosophy
-      cover: /assets/political-philosophy-cover.webp
+      cover: /Wiki-Knights-Blog/assets/political-philosophy-cover.webp
       class: POT 4025
       link: https://pressbooks.online.ucf.edu/ancientpoliticalphilosophy/
     - title: Utopia/Dystopia
-      cover: /assets/utopia-dystopia-cover.webp
+      cover: /Wiki-Knights-Blog/assets/utopia-dystopia-cover.webp
       class: POT 4331
       link: https://pressbooks.online.ucf.edu/utopiadystopia/
     - title: Constitutional Law I and II
-      cover: /assets/constiutional-law-cover.webp
+      cover: /Wiki-Knights-Blog/assets/constitutional-law-cover.webp
       class: POS 4604
       link: https://pressbooks.online.ucf.edu/constitutionallaw/
-
 ---
 
 <!DOCTYPE html>
@@ -26,11 +25,11 @@ books:
 
 <head>
     <meta charset="UTF-8">
-    <title>{{ page.titl }}</title>
+    <title>{{ page.title }}</title>
 
     <!-- Stylesheets -->
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" href="{{ site.url }}/assets/library/library-small.css">
+    <link rel="stylesheet" href="{{ site.url }}{{ site.baseurl }}/assets/library-small.css">
     <style id="custom-logo-css" type="text/css">
         .site-title,
         .site-description {
@@ -49,31 +48,31 @@ books:
     
     <!-- Open Graph Tags -->
     <meta property="og:type" content="article">
-    <meta property="og:title" content="{{ page}}">
-    <meta property="og:url" content="{{ site.url }}/library/">
+    <meta property="og:title" content="{{ page.title }}">
+    <meta property="og:url" content="{{ site.url }}{{ site.baseurl }}/library/">
     <meta property="og:description"
         content="{{ page.description }}">
     <meta property="og:site_name" content="{{ site.title }}">
-    <meta property="og:image" content="{{ site.url }}/assets/libraryicon.png">
+    <meta property="og:image" content="{{ site.url }}{{ site.baseurl }}/assets/libraryicon.png">
     <meta property="og:image:width" content="750">
     <meta property="og:image:height" content="750">
     <meta property="og:image:alt" content="">
     <meta property="og:locale" content="en_US">
     <meta name="twitter:text:title" content="{{ page.title }}">
-    <meta name="twitter:image" content="{{ site.url }}/assets/libraryicon.png?w=640">
+    <meta name="twitter:image" content="{{ site.url }}{{ site.baseurl }}/assets/libraryicon.png?w=640">
     <meta name="twitter:card" content="summary_large_image">
     <!-- End Open Graph Tags -->
 
     <meta name="description"
         content="{{ page.description }}">
-	<link rel="icon" href="{{ site.url }}{{ site.icon }}?w=32"
+	<link rel="icon" href="{{ site.url }}{{ site.baseurl }}{{ site.icon }}?w=32"
 	      sizes="32x32">
-	<link rel="icon" href="{{ site.url }}{{ site.icon }}?w=100"
+	<link rel="icon" href="{{ site.url }}{{ site.baseurl }}{{ site.icon }}?w=100"
 	      sizes="192x192">
 	<link rel="apple-touch-icon"
-	      href="{{ site.url }}{{ site.icon }}?w=100">
+	      href="{{ site.url }}{{ site.baseurl }}{{ site.icon }}?w=100">
 	<meta name="msapplication-TileImage"
-	      content="{{ site.url }}{{ site.icon }}?w=100">
+	      content="{{ site.url }}{{ site.baseurl }}{{ site.icon }}?w=100">
 </head>
 
 <body
@@ -85,7 +84,7 @@ books:
 
         <header id="masthead" class="site-header responsive-max-width" role="banner">
             <div class="site-branding">
-                <p class="site-title"><a href="{{ site.url }}" rel="home">{{ site.title }}</a></p>
+                <p class="site-title"><a href="{{ site.url }}{{ site.baseurl }}" rel="home">{{ site.title }}</a></p>
             </div>
         </header>
 
@@ -105,7 +104,7 @@ books:
                                 class="wp-block-buttons is-horizontal is-content-justification-center is-layout-flex wp-container-core-buttons-is-layout-03627597 wp-block-buttons-is-layout-flex">
                                 <div class="wp-block-button is-style-fill"><a
                                         class="wp-block-button__link has-text-color has-background wp-element-button"
-                                        href="{{ site.url }}" title="{{ site.url }}"
+                                        href="{{ site.url }}{{ site.baseurl }}" title="{{ site.title }}"
                                         style="border-radius:50px;color:#ffffff;background-color:#fbcd27">Home</a></div>
                             </div>
 
@@ -125,7 +124,7 @@ books:
                                                         <figure class="wp-block-image size-large">
                                                             <a href="{{ book.link }}" target="_blank">
                                                                 <img width="642" height="1024"
-                                                                    src="{{ site.url }}{{ book.cover}}?w=642"
+                                                                    src="{{ site.url }}{{ book.cover }}?w=642"
                                                                     alt="{{ book.title }}" class="wp-image-313"
                                                                     sizes="(max-width: 642px) 100vw, 642px">
                                                             </a>
@@ -160,7 +159,7 @@ books:
 
         <footer id="colophon" class="site-footer responsive-max-width">
             <div class="site-info">
-                <a class="site-name" href="{{ site.url }}" rel="home">{{ site.title }}</a>
+                <a class="site-name" href="{{ site.url }}{{ site.baseurl }}" rel="home">{{ site.title }}</a>
             </div>
         </footer>
     </div>
