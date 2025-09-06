@@ -5,3 +5,5 @@ url: https://corbanpendrak.github.io
 baseurl: /Wiki-Knights-Blog
 logo: /assets/sword-in-book.webp
 icon: /assets/white-transparent-logo-icon.png
+plugins:
+  - jekyll-sitemap
