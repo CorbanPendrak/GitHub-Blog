@@ -273,10 +273,10 @@ email: wikiknights.ucf@gmail.com
 							{% for post in site.posts limit:3 %}
 							<li>
 								<div class="wp-block-latest-posts__featured-image aligncenter"><a
-										href="{{ site.url }}{{ post.thumbnail }}"
+										href="{{ site.url }}{{ site.baseurl }}{{ post.thumbnail }}"
 										aria-label="{{ post.title }}"><img
 										width="300" height="169"
-										src="{{ site.url }}{{ post.thumbnail }}"
+										src="{{ site.url }}{{ site.baseurl }}{{ post.thumbnail }}"
 										class="attachment-medium size-medium wp-post-image" alt="" decoding="async"
 										style="width: 300px;"></a>
 								</div>

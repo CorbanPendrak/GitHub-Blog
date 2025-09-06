@@ -60,7 +60,7 @@ title: Wiki Knights Posts
         <div id="content" class="site-content">
             <section id="primary" class="content-area">
                 <main id="main" class="site-main">
-                    {% for post in site.posts limit:3 %}
+                    {% for post in site.posts %}
                     <article id="post-499"
                         class="post-499 post type-post status-publish format-standard has-post-thumbnail hentry category-uncategorized entry">
                         <header class="entry-header responsive-max-width">
@@ -76,7 +76,7 @@ title: Wiki Knights Posts
                                 href="{{ site.url }}{{ site.baseurl }}{{ post.url }}"
                                 aria-hidden="true" tabindex="-1">
                                 <img width="1568" height="881"
-                                    src="{{ site.url }}{{ post.thumbnail }}?w=1568"
+                                    src="{{ site.url }}{{ site.baseurl }}{{ post.thumbnail }}?w=1568"
                                     class="attachment-post-thumbnail size-post-thumbnail wp-post-image" alt=""
                                     decoding="async"
                                     sizes="(max-width: 1568px) 100vw, 1568px" >
