@@ -19,11 +19,11 @@ We are excited to have you here and look forward to sharing our journey with you
   - [x] Make library page easily editable
 - [x] Add wikiknights.com/calendar page
   - [x] Make calendar page easily editable
-- [ ] Add wikiknights.com/posts page
-  - [ ] Limit posts on main page
+- [x] Add wikiknights.com/posts page
+  - [x] Limit posts on main page
 - [ ] Make index page easily editable
 - [ ] SEO
-  - [ ] [Sitemap](https://github.com/jekyll/jekyll-sitemap)
+  - [x] [Sitemap](https://github.com/jekyll/jekyll-sitemap)
   - [ ] [RSS feed](https://github.com/jekyll/jekyll-feed)
   - [ ] [Embeds for tables, math, video...](https://github.com/jeffreytse/jekyll-spaceship)
   - [ ] [SEO tags](https://github.com/jekyll/jekyll-seo-tag)
