@@ -1,4 +1,6 @@
-media: assets
+media: 
+  input: /assets
+  ourput: /Wiki-Knights-Blog/assets
 
 content:
   - name: posts
