@@ -1,7 +1,12 @@
 ---
-title: Home
+description: Wiki Knights is a student organization at UCF that believes 
+  information can and should be available, free of charge. This organization aims to create
+  and promote free, open textbooks for the higher education community as well as contribute to
+  existing open communities such as OpenStax, Wikipedia, Pressbooks, and others. 
+meeting-schedule: TBD!
+email: wikiknights.ucf@gmail.com
 ---
-
+<!DOCTYPE html>
 <html lang="en">
 <head>
 	<meta charset="UTF-8">
@@ -76,17 +81,14 @@ title: Home
 						</div>
 
 						<p class="has-text-align-center">
-							Wiki Knights is a student organization at UCF that believes
-							information can and should be available, free of charge. This organization aims to create
-							and promote free, open textbooks for the higher education community as well as contribute to
-							existing open communities such as OpenStax, Wikipedia, Pressbooks, and others. 
+							{{ page.description }}
 						</p>
 
 
 						<p class="has-text-align-center has-huge-font-size">
 							<strong style="--editable-content-background-color: rgba(6, 7, 7, 0.2);--editable-content-color: rgb(183, 173, 167);--original-color: rgb(24, 24, 24);--original-background-color: rgba(24, 24, 24, 0.2)">Meeting
-							Schedule for Fall 2025:</strong><br>
-							TBD!
+							Schedule:</strong><br>
+							{{ page.meeting-schedule }}
 						</p>
 
 						<p class="has-text-align-center">Join our Discord for up-to-date information!</p>
@@ -302,11 +304,7 @@ title: Home
 										<h4 class="wp-block-heading" id="about-us">About Us</h4>
 
 										<p>
-											Wiki Knights is a student organization at UCF that believes information can
-											and should be available, free of charge. This organization aims to create
-											and promote free, open textbooks for the higher education community as well
-											as contribute to existing open communities such as OpenStax, Wikipedia,
-											Pressbooks, and others. 
+											{{ page.description }}
 										</p>
 
 										<p class="has-text-align-left has-secondary-color has-text-color">
@@ -319,14 +317,10 @@ title: Home
 									<div class="wp-block-column is-layout-flow wp-block-column-is-layout-flow">
 										<h4 class="wp-block-heading" id="get-in-touch">Get In Touch</h4>
 										<p>
-											<a href="mailto:wikiknights.ucf@gmail.com">
-												wikiknights.ucf@gmail.com
+											<a href="mailto:{{ page.email }}">
+												{{ page.email }}
 											</a>
 										</p>
-
-										<h4 class="wp-block-heading" id="drop-by">Drop By</h4>
-
-										<p>4000 Central Florida Blvd.<br>Orlando, Florida, 32816<br>USA</p>
 									</div>
 								</div>
 							</div>

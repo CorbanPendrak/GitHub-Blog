@@ -78,6 +78,23 @@ content:
             label: Link
             description: Where the book can be found.
             type: string
+  - name: Home
+    label: Home Page
+    path: index.html
+    type: file
+    fields:
+      - name: description
+        label: Description
+        type: rich-text
+        description: The description of the club.
+      - name: meeting-schedule
+        label: Meeting Schedule
+        type: rich-text
+        description: The schedule for club meetings.
+      - name: email
+        label: Contact Email
+        type: string
+        description: The contact email for the club.
   - name: config
     label: Site Configuration
     path: _config.yml
@@ -92,8 +109,12 @@ content:
       - name: url
         label: Website URL
         type: string
-        pattern: ^(https?:\/\/)?(www\.)?[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}(\/[^\s]*)?$
-      - name: cover
-        label: Preview image
-        type: image
-        description: Image used in the social preview on social networks (e.g. Facebook, Twitter...)
+      - name: baseurl
+        label: Base URL
+        type: string
+        description: The subpath of your site, e.g. /blog
+
+settings:
+  hide: true
+  content:
+    merge: true

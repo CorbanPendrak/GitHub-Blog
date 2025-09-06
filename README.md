@@ -21,7 +21,7 @@ We are excited to have you here and look forward to sharing our journey with you
   - [x] Make calendar page easily editable
 - [x] Add wikiknights.com/posts page
   - [x] Limit posts on main page
-- [ ] Make index page easily editable
+- [x] Make index page easily editable
 - [ ] SEO
   - [x] [Sitemap](https://github.com/jekyll/jekyll-sitemap)
   - [ ] [RSS feed](https://github.com/jekyll/jekyll-feed)
