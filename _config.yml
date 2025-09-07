@@ -1,9 +1,9 @@
 title: Wiki Knights
 description: Wiki Knights is a community of people who believe that information
   can and should be available, free of charge.
-url: https://corbanpendrak.github.io
-baseurl: /Wiki-Knights-Blog
-logo: /assets/sword-in-book.webp
-icon: /assets/white-transparent-logo-icon.png
+url: "https://corbanpendrak.github.io"
+baseurl: "/Wiki-Knights-Blog"
+logo: /Wiki-Knights-Blog/assets/sword-in-book.webp
+icon: /Wiki-Knights-Blog/assets/white-transparent-logo-icon.png
 plugins:
   - jekyll-sitemap
