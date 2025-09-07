@@ -4,7 +4,7 @@ title: WIKI KNIGHTS STOPPED OPT-OUT!
 author:
   - wikiknightsucf
 date: 2021-04-10
-thumbnail: /assets/wiki-knights-stopped-opt-out-thumbnail.webp
+thumbnail: /Wiki-Knights-Blog/assets/wiki-knights-stopped-opt-out-thumbnail.webp
 summary: Collection of posts how Wiki Knights contributed to preventing UCF from
   switching to an opt-out textbook billing policy
 ---

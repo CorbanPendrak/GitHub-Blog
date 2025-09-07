@@ -1,6 +1,8 @@
 media: 
   input: assets
+  # Relative to the root of the repository
   output: /Wiki-Knights-Blog/assets
+  # Relative to root of the site
 
 content:
   - name: posts
