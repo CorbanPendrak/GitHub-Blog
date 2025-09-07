@@ -1,6 +1,7 @@
 media: 
-  input: /assets
-  ourput: /Wiki-Knights-Blog/assets
+  input: assets
+  output: /assets
+  url_prefix: /Wiki-Knights-Blog/assets
 
 content:
   - name: posts
