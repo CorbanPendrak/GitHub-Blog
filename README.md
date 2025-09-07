@@ -14,7 +14,7 @@ We are excited to have you here and look forward to sharing our journey with you
   - [ ] Fix styles
     - [ ] default.html
     - [ ] index.html
-- [ ] Move posts
+- [x] Move posts
 - [ ] Remove author tag
 - [x] Add wikiknights.com/library page
   - [x] Make library page easily editable
